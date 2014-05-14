@@ -45,7 +45,7 @@ use GSMUSSD::UssdQuery;
 # Init
 ########################################################################
 
-our $VERSION            = '0.4.0';          # Our version
+our $VERSION            = '0.4.1';          # Our version
 my $modemport           = '/dev/ttyUSB1';   # AT port of a Huawei E160 modem
 my $timeout_for_answer  = 20;               # Timeout for modem answers in seconds
 my @ussd_queries        = ( '*100#' );      # Prepaid account query as default
